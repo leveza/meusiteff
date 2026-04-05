@@ -1,0 +1,120 @@
+body {
+    background-color: black;
+    color: #00ff00;
+    font-family: monospace;
+    
+}
+button:hover {
+    background-color: rgb(206, 7, 7);
+    color: rgb(255, 255, 255);
+}
+img {
+    width: 700px;
+    border-radius: 10px;
+    margin: 10px;
+}
+body {
+    background-color:rgb(206, 12, 12);
+}
+.pet {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 800px;
+
+    animation: andar 15s linear infinite;
+}@keyframes andar {
+    0% {
+        left: 0;
+        top: 100px;
+    }
+
+    25% {
+        left: 50%;
+        top: 200px;
+    }
+
+    50% {
+        left: 80%;
+        top: 50px;
+    }
+
+    75% {
+        left: 30%;
+        top: 300px;
+    }
+
+    100% {
+        left: 0;
+        top: 100px;
+    }
+}
+    
+
+.bola {
+    width: 20px;
+    height: 20px;
+    background: rgba(4, 148, 76, 0.575);
+    position: fixed;
+    border-radius: 50%;
+    animation: subir 4s infinite;
+}
+h1 {
+    animation: piscar 1s infinite;
+}
+
+@keyframes piscar {
+    50% { opacity: 0.2; }
+}
+.particula {
+    position: fixed;
+    width: 5px;
+    height: 5px;
+    background: rgb(8, 112, 4);
+    border-radius: 50%;
+    pointer-events: none;
+    animation: cair linear;
+}
+@keyframes cair {
+    to {
+        transform: translateY(100vh);
+    }
+}
+body {
+    background: linear-gradient(270deg, #000000, #000000, #000000);
+    background-size: 600% 600%;
+    animation: fundo 10s ease infinite;
+}
+
+@keyframes fundo {
+    0% { background-position: 0% }
+    50% { background-position: 100% }
+    100% { background-position: 0% }
+}
+body {
+    background: linear-gradient(270deg, #000000, #000000, #000000);
+    background-size: 600% 600%;
+    animation: fundo 10s ease infinite;
+}
+
+@keyframes fundo {
+    0% { background-position: 0% }
+    50% { background-position: 100% }
+    100% { background-position: 0% }
+}
+.bola {
+    width: 20px;
+    height: 20px;
+    background: rgb(37, 190, 7);
+    position: fixed;
+    border-radius: 50%;
+    opacity: 0.7;
+}
+.rastro {
+    width: 10px;
+    height: 10px;
+    background: rgb(8, 8, 8);
+    position: fixed;
+    border-radius: 50%;
+    pointer-events: none;
+}
